@@ -61,7 +61,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 * Don't sync everything to the cloud If an account shouldn't have access, it shouldn't sync to Entra ID either.
 
 <details>
-<summary>📸 <b>click here to view Lab 1 Diagrams and Screenshots</b></summary>
+<summary>📸 <b>Click here to view Lab 1 Diagrams and Screenshots</b></summary>
 
 <br>
 
@@ -96,7 +96,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 * SoD stops fraud, not just paperwork - Define the conflicts before we build.
 
 <details>
-<summary>📸 <b>click here to view Lab 2 Diagrams and Screenshots</b></summary>
+<summary>📸 <b>Click here to view Lab 2 Diagrams and Screenshots</b></summary>
 
 <br>
 
@@ -131,7 +131,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 * Verify access is actually removed. Don't assume access is gone. Check group memberships, accounts, and permissions to confirm deprovisioning was successful.
 
 <details>
-<summary>📸 <b>click here to view Lab 3 Diagrams and Screenshots</b></summary>
+<summary>📸 <b>Click here to view Lab 3 Diagrams and Screenshots</b></summary>
 
 <br>
 
@@ -159,7 +159,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 * Applied least-privilege entitlements through group memberships rather than direct assignments. Verified user access segregation across distinct user profiles in Incognito test sessions.
 
 <details>
-<summary>📸 <b>click here to view Lab 4 Diagrams and Screenshots</b></summary>
+<summary>📸 <b>Click here to view Lab 4 Diagrams and Screenshots</b></summary>
 
 <br>
 
@@ -193,7 +193,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 * Enforced step-up authentication policies on high-value resources (e.g., SharePoint) to challenge active sessions upon accessing sensitive data.
 
 <details>
-<summary>📸 <b>click here to view Lab 5 Diagrams and Screenshots</b></summary>
+<summary>📸 <b>Click here to view Lab 5 Diagrams and Screenshots</b></summary>
 
 <br>
 
@@ -230,7 +230,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 - Supports CSV-driven batch processing for multiple lifecycle actions.
 
 <details>
-<summary>📸 <b>click here to view Lab 6 Diagrams and Screenshots</b></summary>
+<summary>📸 <b>Click here to view Lab 6 Diagrams and Screenshots</b></summary>
 
 <br>
 
