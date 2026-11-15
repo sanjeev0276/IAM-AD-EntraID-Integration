@@ -66,7 +66,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 <br>
 
 #### Architecture Diagram
-![Architecture Diagram](Lab01-AD-Foundation/Screenshots/Architecture_Diagram.png)
+![Architecture Diagram](Lab04-Lockout/Screenshots/Architecture_Diagram.png)
 
 #### AD Foundation
 * **Environment:**  
