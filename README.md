@@ -167,19 +167,15 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 #### Architecture Diagram
 ![Architecture Diagram](Lab04-Lockout/Screenshots/Architecture_Diagram.png)
 
-#### SAML Integration Proof
-* **Custom SAML Configuration:**  
-  ![SAML Creation 1](Lab%204%20-%20Okta%20SAML%202.0%20Application%20Integration/Screenshots/Slack_SP_Shrestha_Technology_1.png)  
-  ![SAML Creation 2](Lab%204%20-%20Okta%20SAML%202.0%20Application%20Integration/Screenshots/Slack_SP_Shrestha_Technology_2.png)  
-  ![SAML Creation 3](Lab%204%20-%20Okta%20SAML%202.0%20Application%20Integration/Screenshots/Slack_SP_Shrestha_Technology_3.png)
-* **Group-Based Application Assignments:**  
-  ![Group Based App Access 1](Lab%204%20-%20Okta%20SAML%202.0%20Application%20Integration/Screenshots/Group_Based_App_Access_1.png)  
-  ![Group Based App Access 2](Lab%204%20-%20Okta%20SAML%202.0%20Application%20Integration/Screenshots/Group_Based_App_Access_2.png)
-* **Least Privilege Access Verification:**  
-  * *Finance User (John Smith - Limited Access):*  
-    ![John App Access](Lab%204%20-%20Okta%20SAML%202.0%20Application%20Integration/Screenshots/John_App_Access.png)
-  * *HR & Cloud Admin (Lisa Park - Extended Access):*  
-    ![Lisa App Access](Lab%204%20-%20Okta%20SAML%202.0%20Application%20Integration/Screenshots/Lisa_App_Access.png)
+#### Lockout Proof
+* **Audit Policy Configuration:**  
+  ![Audit Policy Configuration](Lab04-Lockout/Screenshots/Audit_Policy_Configuration.png)   
+* **Scenario A — Marcus Williams — Simple Password Mistake**  
+  ![Scenario_A](Lab04-Lockout/Screenshots/Scenario_A.png) 
+* **Scenario B — David Osei — Stale Cached Credentials:**  
+  ![Scenario_B](Lab04-Lockout/Screenshots/Scenario_B.png)
+* **Scenario C — Linda Okafor, Rachel Thompson, Michael Obi — Spray Pattern:**  
+  ![Scenario_C](Lab04-Lockout/Screenshots/Scenario_C.png) 
 
 </details>
 
