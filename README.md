@@ -152,11 +152,12 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 <a id="lab-4-saml-20-application-integration"></a>
-### Lab 4: SAML 2.0 Application Integration
+### Lab 4: Lockout
 
 **Key Learnings and Takeaways:**
-* Configured custom SAML 2.0 integrations with multiple Service Providers (Slack, Google Workspace, SharePoint).
-* Applied least-privilege entitlements through group memberships rather than direct assignments. Verified user access segregation across distinct user profiles in Incognito test sessions.
+* Same lockout, 3 different stories One person forgetting a password looks the same as an attack — until you check the pattern. One account = typo. One account failing super fast = old password stuck somewhere. Three accounts failing at the same time = someone spraying passwords. Don't just unlock. Figure out which one it is first.
+* Two logs tell the full story 4740 tells you who got locked. 4625 tells you why and from where. One without the other is just a guess. Always check both before you decide if it's routine or serious.
+* You can't spot an attack by scrolling Scrolling Event Viewer one by one will never show you a spray. Grouping the failures by account in PowerShell will — when three accounts suddenly have the exact same number of fails, that's the attack.
 
 <details>
 <summary>📸 <b>Click here to view Lab 4 Diagrams and Screenshots</b></summary>
