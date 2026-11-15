@@ -183,11 +183,12 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 <a id="lab-5-adaptive-mfa-step-up-authentication--zero-trust"></a>
-### Lab 5: Adaptive MFA, Step-Up Authentication and Zero Trust
+### Lab 5: Entra Connect
 
 **Key Learnings and Takeaways:**
-* Defined trusted vs. untrusted IP Network Zones. Constructed Adaptive Sign-On Rules to require MFA or block access based on client network context.
-* Enforced step-up authentication policies on high-value resources (e.g., SharePoint) to challenge active sessions upon accessing sensitive data.
+* Microsoft Entra Connect bridges on-prem Active Directory and Entra ID.
+* Hybrid identity provides one consistent identity across on-prem and cloud systems.
+* Automated synchronization improves security, user lifecycle management, and operational efficiency.
 
 <details>
 <summary>📸 <b>Click here to view Lab 5 Diagrams and Screenshots</b></summary>
