@@ -196,7 +196,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 <br>
 
 #### Architecture Diagram
-![Architecture Diagram](Lab06-Entra-Connect/Screenshots/Architecture_Diagram.png)
+![Architecture Diagram](Lab05-Entra-Connect/Screenshots/Architecture_Diagram.png)
 
 #### MFA & Policy Verification
 * **Authenticator Enrollment & Passwordless Setup:**  
