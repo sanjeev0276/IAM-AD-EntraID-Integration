@@ -198,21 +198,34 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 #### Architecture Diagram
 ![Architecture Diagram](Lab05-Entra-Connect/Screenshots/Architecture_Diagram.png)
 
-#### Entra Connect AD Directories: 
+#### Entra Connect AD Directories 
 * **Entra Connect AD Directories 1:**  
   ![Entra_Connect_AD_Directories_1](Lab05-Entra-Connect/Screenshots/Entra_Connect_AD_Directories_1.png)  
-  ![Passwordless Enrollment](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Passwordless_Enrollment_1.png)
-* **Network Zones & Adaptive Rules:**  
-  ![Network Zones](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Network_Zones.png)  
-  ![Adaptive Policy Outside Network](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Risk_Based_Adaptive_MFA_Policy_OutsideNetwork.png)  
-  ![Adaptive Policy Corporate Network](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Risk_Based_Adaptive_MFA_Policy_Corporate.png)
-* **Step-Up Authentication Engine:**  
-  ![Step Up Policy](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Step_Up_Authentication_Policy.png)  
-  ![Step Up Rule](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Step_Up_Authentication_Rule.png)  
-  ![Step Up High Assurance](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Step_Up_Authentication_High_Assurance_Policy.png)
-* **User Authentication Testing:**  
-  ![John Smith Access](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/John_Smith_Access.png)  
-  ![Jane Doe Access](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Jane_Doe_Access.png)
+ 
+* **Entra_Connect_AD_Directories_2:**  
+  ![Entra_Connect_AD_Directories_2](Lab05-Entra-Connect/Screenshots/Entra_Connect_AD_Directories_2.png)  
+* **Entra_Connect_AD_Directories_3:**  
+  ![Entra_Connect_AD_Directories_3](Lab05-Entra-Connect/Screenshots/Entra_Connect_AD_Directories_3.png) 
+* **Entra-Sign-In-Config-Not-Added:**  
+  ![Entra-Sign-In-Config-Not-Added](Lab05-Entra-Connect/Screenshots/Entra-Sign-In-Config-Not-Added.png)
+* **Domain-OU-Filtering:**  
+  ![Domain-OU-Filtering](Lab05-Entra-Connect/Screenshots/Domain-OU-Filtering.png)   
+* **Filtering-Disabled-Unchecked:**  
+  ![Filtering-Disabled-Unchecked](Lab05-Entra-Connect/Screenshots/Filtering-Disabled-Unchecked.png)
+* **Uniquely-Identifying-Users:**  
+  ![Uniquely-Identifying-Users](Lab05-Entra-Connect/Screenshots/Uniquely-Identifying-Users.png)
+* **Filter-Users-Devices-All:**  
+  ![Filter-Users-Devices-All](Lab05-Entra-Connect/Screenshots/Filter-Users-Devices-All.png)
+* **Optional-Features-Password-Writeback:**  
+  ![Optional-Features-Password-Writeback](Lab05-Entra-Connect/Screenshots/Optional-Features-Password-Writeback.png)
+* **Ready-To-Configure-Summary:**  
+  ![Ready-To-Configure-Summary](Lab05-Entra-Connect/Screenshots/Ready-To-Configure-Summary.png)
+* **Configuration-Complete:**  
+  ![Configuration-Complete](Lab05-Entra-Connect/Screenshots/Configuration-Complete.png)
+* **Sync-Operations-All-Success:**  
+  ![Sync-Operations-All-Success](Lab05-Entra-Connect/Screenshots/Sync-Operations-All-Success.png)
+* **Entra-Users-Synced-OnPrem-Yes:**  
+  ![Entra-Users-Synced-OnPrem-Yes](Lab05-Entra-Connect/Screenshots/Entra-Users-Synced-OnPrem-Yes.png)                    
 
 </details>
 
