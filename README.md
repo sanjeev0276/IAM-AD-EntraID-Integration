@@ -198,9 +198,9 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 #### Architecture Diagram
 ![Architecture Diagram](Lab05-Entra-Connect/Screenshots/Architecture_Diagram.png)
 
-#### MFA & Policy Verification
-* **Authenticator Enrollment & Passwordless Setup:**  
-  ![Enroll Okta Verify](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Enroll_Okta_Verify.png)  
+#### Entra Connect AD Directories: 
+* **Entra Connect AD Directories 1:**  
+  ![Entra_Connect_AD_Directories_1](Lab05-Entra-Connect/Screenshots/Entra_Connect_AD_Directories_1.png)  
   ![Passwordless Enrollment](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Passwordless_Enrollment_1.png)
 * **Network Zones & Adaptive Rules:**  
   ![Network Zones](Lab%205%20-%20Okta%20MFA%20and%20Adaptive%20Authentication/Screenshots/Network_Zones.png)  
