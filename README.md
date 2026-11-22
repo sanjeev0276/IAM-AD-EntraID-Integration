@@ -61,10 +61,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 * Don't sync everything to the cloud If an account shouldn't have access, it shouldn't sync to Entra ID either.
 
 <details>
-<summary>
-  <img src="assets/lab-toggle-maroon.svg"
-       alt="📸 Click here to view Lab 1 Diagrams and Screenshots >>">
-</summary>
+<summary>📸 <b>Click here to view Lab 4 Diagrams and Screenshots >></b></summary>
 
 <br>
 
