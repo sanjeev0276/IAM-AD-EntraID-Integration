@@ -11,7 +11,7 @@
 **Certification Focus:** Preparing for Microsoft SC-300: Identity and Access Administrator Associate <br>
 **Environment:** Microsoft Active Directory/Entra ID
 
-## 6 Labs Architecture Overview
+## 5 Labs Architecture Overview
  ![Architecture_Overview](Overall_Architecture.png)
 
 ## Quick Navigation and Lab Execution Status
@@ -23,7 +23,6 @@
 | **Lab 3** | Offboarding | Completed | [Go to Lab 3 >>](#lab-3-rbac-design--access-sprawl-investigation)               |
 | **Lab 4** | Lockout  | Completed | [Go to Lab 4 >>](#lab-4-saml-20-application-integration)                        |
 | **Lab 5** | Entra Connect  | Completed | [Go to Lab 5 >>](#lab-5-adaptive-mfa-step-up-authentication--zero-trust)        |
-| **Lab 6** | Conditional Access  | Completed | [Go to Lab 6 >>](#lab-6-okta-jml-lifecycle-automation)                          |
 
 ---
 ## Executive Summary and Business Impact
@@ -231,48 +230,6 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 
 ---
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
-
-<a id="lab-6-okta-jml-lifecycle-automation"></a>
-### Lab 6: Okta JML Lifecycle Automation
-
-**Key Learnings & Takeaways:**
-- Automates Joiner, Mover, and Leaver lifecycle actions using PowerShell and Active Directory.
-- Uses the Okta AD Agent and Full/Incremental Import to validate applicable AD changes in Okta.
-- Supports CSV-driven batch processing for multiple lifecycle actions.
-
-<details>
-<summary>📸 <b>Click here to view Lab 6 Diagrams and Screenshots >></b></summary>
-
-<br>
-
-#### Architecture Diagram
-![Architecture Diagram](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Architecture_Diagram.png)
-
-#### Joiner Mover Leaver Lifecycle
-* **Joiner Onboarding Script:**  
-  ![Joiner_Onboarding_Script](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Joiner_Onboarding_Script.png)    
-* **IT Confirmation:**  
-  ![IT_Confirmation](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/IT_Confirmation.png)  
-* **Mover Script:**  
-  ![Mover_Script](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Mover_Script.png)    
-* **Finance Confirmation:**  
-  ![Finance_Confirmation](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Finance_Confirmation.png)
-* **Leaver Script:**  
-  ![Leaver_Script](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Leaver_Script.png)
-* **Deactivation Confirmation:**  
-  ![Deactivation_Confirmation](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Deactivation_Confirmation.png)
-* **CSV Driven Batch Processing:**  
-  ![CSV_Driven_Batch_Processing](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/CSV_Driven_Batch_Processing.png)
-* **Activated Deactivated Confirmation:** 
-  ![Activated_Deactivated_Confirmation](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Activated_Deactivated_Confirmation.png)
-* **HR Group Confirmation:** 
-  ![HR_Group_Confirmation](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/HR_Group_Confirmation.png)
-* **Finance Group Confirmation:** 
-  ![Finance_Group_Confirmation](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Finance_Group_Confirmation.png)
-</details>
-
-**[↑ Back to Lab Execution Status](#lab-execution-status)**
-
 ---
 
 ## Original Repository and Credits
