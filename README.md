@@ -3,7 +3,6 @@
 ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft%20Entra%20ID-Hybrid%20Identity-0078D4?style=for-the-badge&logo=microsoftentraid&logoColor=white)
 ![RBAC](https://img.shields.io/badge/RBAC-Role%20Engineering%20%26%20Access%20Governance-2E86C1?style=for-the-badge)
 ![Offboarding](https://img.shields.io/badge/Offboarding-Access%20Revocation-6C3483?style=for-the-badge)
-![Conditional Access](https://img.shields.io/badge/Conditional%20Access-Identity%20Security-00A86B?style=for-the-badge)
 ![PowerShell](https://img.shields.io/badge/PowerShell-Automation%20%26%20Investigation-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 
 **Author:** Sanjeev Shrestha | Dallas–Fort Worth Area, TX (Shrestha Technologies)  
