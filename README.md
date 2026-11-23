@@ -216,7 +216,7 @@ Built an end-to-end hybrid identity environment using Active Directory, RBAC, of
   ![Uniquely-Identifying-Users](Lab05-Entra-Connect/Screenshots/Uniquely-Identifying-Users.png)
 * **Filter-Users-Devices-All:**  
   ![Filter-Users-Devices-All](Lab05-Entra-Connect/Screenshots/Filter-Users-Devices-All.png)
-* **Optional-Features-Password-Writeback:**  
+* **Optional Features — Reviewed, Not Enabled (Free Tier):**  
   ![Optional-Features-Password-Writeback](Lab05-Entra-Connect/Screenshots/Optional-Features-Password-Writeback.png)
 * **Ready-To-Configure-Summary:**  
   ![Ready-To-Configure-Summary](Lab05-Entra-Connect/Screenshots/Ready-To-Configure-Summary.png)
