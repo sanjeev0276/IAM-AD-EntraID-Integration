@@ -27,11 +27,7 @@
 ---
 ## Executive Summary and Business Impact
 
-Implemented an end-to-end IAM environment using Okta, Active Directory, SAML federation, Adaptive MFA, RBAC, and automated Joiner-Mover-Leaver lifecycle processes across six hands-on labs.
-
-## Executive Summary and Business Impact
-
-Built an end-to-end hybrid identity environment using Active Directory, RBAC, offboarding controls, lockout investigation, and 【entity-Microsoft¦canonical_name=Microsoft】 Entra Connect across five hands-on labs.
+Built an end-to-end hybrid identity environment using Active Directory, RBAC, offboarding controls, lockout investigation, and AD-Entra Connect across five hands-on labs.
 
 - **AD Foundation (Lab 1):** Disabled accounts in their own OU, access through groups instead of individual users, OU filtering so accounts that should not have access do not sync to Entra ID, least-privilege design.
 - **Access Control / RBAC (Lab 2):** Role-to-system matrix for `AD`, `Email`, `FinanceCore`, `PeopleHub`, `SalesPro`, plus Invoice `Create / Approve / Admin`. Every cell is `Allow / Deny / Read-Only`, with segregation of duties to stop fraud.
