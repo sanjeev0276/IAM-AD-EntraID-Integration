@@ -235,6 +235,18 @@ Built an end-to-end hybrid identity environment using Active Directory, RBAC, of
 ## Original Repository and Credits
 This hands-on lab series was adapted and built upon the foundational framework provided by [okpe027/IAM-HomeLab-Portfolio](https://github.com/okpe027/IAM-HomeLab-Portfolio/tree/main). 
 
+### What I adapted:
+- Lab structure and overall flow
+
+### What I built / added myself:
+- Added Overall Architectural diagram, and each lab architecture diagram.
+- Rewrote RBAC matrix for 50 users.
+- Added PowerShell automation scripts.
+- Added screenshots and validation steps.
+- All configurations, testing, and documentation in this repo.
+  
+Original work remains credited to its author. This repo is my hands-on implementation and extension of that framework.
+
 
 
 
