@@ -33,12 +33,12 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 
 Built an end-to-end hybrid identity environment using Active Directory, RBAC, offboarding controls, lockout investigation, and 【entity-Microsoft¦canonical_name=Microsoft】 Entra Connect across five hands-on labs.
 
-- **【entity-AD¦canonical_name=AD】 Foundation (Lab 1):** Disabled accounts in their own OU, access through groups instead of individual users, OU filtering so accounts that should not have access do not sync to Entra ID, least-privilege design.
+- **AD Foundation (Lab 1):** Disabled accounts in their own OU, access through groups instead of individual users, OU filtering so accounts that should not have access do not sync to Entra ID, least-privilege design.
 - **Access Control / RBAC (Lab 2):** Role-to-system matrix for `AD`, `Email`, `FinanceCore`, `PeopleHub`, `SalesPro`, plus Invoice `Create / Approve / Admin`. Every cell is `Allow / Deny / Read-Only`, with segregation of duties to stop fraud.
 - **Offboarding (Lab 3):** Disable account, remove group memberships, remove access and verify removal, and keep a provisioning / deprovisioning log for audit and compliance.
 - **Lockout Investigation (Lab 4):** Event `4740` shows who got locked, Event `4625` shows why and from where. Group failures in PowerShell before unlocking: one account = typo, fast fails = stuck password, 3 accounts at once = password spray.
-- **Hybrid Identity (Lab 5):** Microsoft Entra Connect bridges 【entity-AD¦canonical_name=AD】 to Entra ID for one consistent identity, with OU filtering, Password Hash Sync, Password Writeback, and Sync Operations: All Success.
-- **Business Impact:** Fewer orphaned and over-privileged accounts, faster and more defensible offboarding, lockouts investigated instead of just unlocked, and a cleaner, audit-ready path from on-prem 【entity-AD¦canonical_name=AD】 to Entra ID.
+- **Hybrid Identity (Lab 5):** Microsoft Entra Connect bridges AD to Entra ID for one consistent identity, with OU filtering, Password Hash Sync, Password Writeback, and Sync Operations: All Success.
+- **Business Impact:** Fewer orphaned and over-privileged accounts, faster and more defensible offboarding, lockouts investigated instead of just unlocked, and a cleaner, audit-ready path from on-prem AD to Entra ID.
 
 ---
 
