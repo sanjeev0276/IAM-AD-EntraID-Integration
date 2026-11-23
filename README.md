@@ -12,7 +12,7 @@
 **Environment:** Microsoft Active Directory/Entra ID
 
 ## 5 Labs Architecture Overview
- ![Architecture_Overview](Overall_Architecture.png)
+ ![Architecture_Overview](Overall_Architecture_Diagram.png)
 
 ## Quick Navigation and Lab Execution Status
 <a id="lab-execution-status"></a>
