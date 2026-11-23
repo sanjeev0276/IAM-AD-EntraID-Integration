@@ -230,7 +230,6 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 
 ---
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
----
 
 ## Original Repository and Credits
 This hands-on lab series was adapted and built upon the foundational framework provided by [okpe027/IAM-HomeLab-Portfolio](https://github.com/okpe027/IAM-HomeLab-Portfolio/tree/main). 
