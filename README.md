@@ -40,13 +40,15 @@ Built an end-to-end hybrid identity environment using Active Directory, RBAC, of
 
 ## Key Skills Demonstrated
 
-* Okta Tenant Administration & Profile Editor
-* Active Directory (AD) Integration & Delegated Authentication
-* Role-Based Access Control (RBAC) Design
-* SAML 2.0 SSO Federation & Attribute Mapping
-* Adaptive Risk-Based Authentication & Network Zones
-* Step-Up Authentication & Passwordless Policies
-* User Lifecycle Management (JML) & Access Sprawl Audit
+- Active Directory OU Design & Disabled-Account Isolation
+- Group-Based Access Control & Least Privilege
+- Role-Based Access Control (RBAC) Matrix Design
+- Segregation of Duties (SoD) & Access Modeling
+- Offboarding & Deprovisioning with Audit Trail
+- Windows Security Log Investigation (Event 4740 / 4625)
+- PowerShell Log Analysis & Password-Spray Detection
+- Microsoft Entra Connect & Hybrid Identity Synchronization
+- OU Filtering, Password Hash Sync & Password Writeback
 
 
 ## Detailed Lab Implementations and Visual Proof
