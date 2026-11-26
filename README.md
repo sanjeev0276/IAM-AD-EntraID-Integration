@@ -25,33 +25,30 @@
 
 ---
 ## Executive Summary and Business Impact
-
-Built an end-to-end hybrid identity environment using Active Directory, RBAC, offboarding controls, lockout investigation, and AD-Entra Connect across five hands-on labs.
-
-- **AD Foundation (Lab 1):** Disabled accounts in their own OU, access through groups instead of individual users, OU filtering so accounts that should not have access do not sync to Entra ID, least-privilege design.
-- **Access Control / RBAC (Lab 2):** Role-to-system matrix for `AD`, `Email`, `FinanceCore`, `PeopleHub`, `SalesPro`, plus Invoice `Create / Approve / Admin`. Every cell is `Allow / Deny / Read-Only`, with segregation of duties to stop fraud.
-- **Offboarding (Lab 3):** Disable account, remove group memberships, remove access and verify removal, and keep a provisioning / deprovisioning log for audit and compliance.
-- **Lockout Investigation (Lab 4):** Event `4740` shows who got locked, Event `4625` shows why and from where. Group failures in PowerShell before unlocking: one account = typo, fast fails = stuck password, 3 accounts at once = password spray.
-- **Hybrid Identity (Lab 5):** Microsoft Entra Connect bridges AD to Entra ID for one consistent identity, with OU filtering, Password Hash Sync, and Sync Operations: All Success.
-- **Business Impact:** Fewer orphaned and over-privileged accounts, faster and more defensible offboarding, lockouts investigated instead of just unlocked, and a cleaner, audit-ready path from on-prem AD to Entra ID.
-
+Built a hybrid identity environment using Active Directory, Microsoft Entra ID, RBAC, PowerShell, and Entra Connect across five hands-on labs.
+- **Identity Administration:** Implemented OU design, group-based access, and least-privilege controls.
+- **Access Management:** Designed RBAC and segregation-of-duties (SoD) controls.
+- **Identity Lifecycle:** Performed secure offboarding and access revocation with audit tracking.
+- **Security Operations:** Investigated account lockouts and password-spray activity using Event Logs and PowerShell.
+- **Hybrid Identity:** Configured Entra Connect synchronization between on-prem AD and Entra ID.
+- **Business Impact:** Reduced access risk, strengthened governance, and improved operational efficiency.
 ---
-
 ## Key Skills Demonstrated
-
-- Active Directory OU Design & Disabled-Account Isolation
-- Group-Based Access Control & Least Privilege
-- Role-Based Access Control (RBAC) Matrix Design
-- Segregation of Duties (SoD) & Access Modeling
-- Offboarding & Deprovisioning with Audit Trail
-- Windows Security Log Investigation (Event 4740 / 4625)
-- PowerShell Log Analysis & Password-Spray Detection
-- Microsoft Entra Connect & Hybrid Identity Synchronization
-- OU Filtering & Password Hash Sync
-
-
+- Active Directory Administration & Hybrid Identity
+- Role-Based Access Control (RBAC) & Segregation of Duties (SoD)
+- Identity Lifecycle Management (Provisioning, Deprovisioning, Offboarding)
+- Access Governance & Certification
+- PowerShell Automation & Security Investigations
+- Microsoft Entra Connect & Directory Synchronization
+## Technologies Used
+| Category | Technologies |
+|-----------|-------------|
+| Identity Platforms | Active Directory, Microsoft Entra ID |
+| Directory Synchronization | Microsoft Entra Connect |
+| Access Management | RBAC, SoD |
+| Identity Lifecycle | Provisioning, Deprovisioning |
+| Automation | PowerShell |
 ## Detailed Lab Implementations and Visual Proof
-
 <a id="lab-1-okta-tenant-setup--configuration"></a>
 ### Lab 1: AD Foundation
 
