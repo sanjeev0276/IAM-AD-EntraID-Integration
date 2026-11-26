@@ -43,7 +43,7 @@ Built a hybrid identity environment using Active Directory, Microsoft Entra ID, 
 ## Technologies Used
 | Category | Technologies |
 |-----------|-------------|
-| Identity Platforms | Active Directory, Microsoft Entra ID |
+| Identity Platforms | Active Directory, Microsoft Entra ID, VMware Workstation, Windows Server 2022 |
 | Directory Synchronization | Microsoft Entra Connect |
 | Access Management | RBAC, SoD |
 | Identity Lifecycle | Provisioning, Deprovisioning |
