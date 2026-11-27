@@ -58,7 +58,7 @@ Built a hybrid identity environment using Active Directory, Microsoft Entra ID, 
 * Don't sync everything to the cloud If an account shouldn't have access, it shouldn't sync to Entra ID either.
 
 <details>
-<summary>📸 <b>Click here to view Lab 1 Diagrams and Screenshots >></b></summary>
+<summary>📸 <b>Click here to View Lab 1 Diagrams and Screenshots >></b></summary>
 
 <br>
 
@@ -93,7 +93,7 @@ Built a hybrid identity environment using Active Directory, Microsoft Entra ID, 
 * SoD stops fraud, not just paperwork - Define the conflicts before we build.
 
 <details>
-<summary>📸 <b>Click here to view Lab 2 Diagrams and Screenshots >></b></summary>
+<summary>📸 <b>Click here to View Lab 2 Diagrams and Screenshots >></b></summary>
 
 <br>
 
@@ -128,7 +128,7 @@ Built a hybrid identity environment using Active Directory, Microsoft Entra ID, 
 * Verify access is actually removed. Don't assume access is gone. Check group memberships, accounts, and permissions to confirm deprovisioning was successful.
 
 <details>
-<summary>📸 <b>Click here to view Lab 3 Diagrams and Screenshots >></b></summary>
+<summary>📸 <b>Click here to View Lab 3 Diagrams and Screenshots >></b></summary>
 
 <br>
 
@@ -157,7 +157,7 @@ Built a hybrid identity environment using Active Directory, Microsoft Entra ID, 
 * You can't spot an attack by scrolling Scrolling Event Viewer one by one will never show you a spray. Grouping the failures by account in PowerShell will — when three accounts suddenly have the exact same number of fails, that's the attack.
 
 <details>
-<summary>📸 <b>Click here to view Lab 4 Diagrams and Screenshots >></b></summary>
+<summary>📸 <b>Click here to View Lab 4 Diagrams and Screenshots >></b></summary>
 
 <br>
 
@@ -188,7 +188,7 @@ Built a hybrid identity environment using Active Directory, Microsoft Entra ID, 
 * Automated synchronization improves security, user lifecycle management, and operational efficiency.
 
 <details>
-<summary>📸 <b>Click here to view Lab 5 Diagrams and Screenshots >></b></summary>
+<summary>📸 <b>Click here to View Lab 5 Diagrams and Screenshots >></b></summary>
 
 <br>
 
