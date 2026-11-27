@@ -17,11 +17,11 @@
 <a id="lab-execution-status"></a>
 | Lab       | Focus Area                                | Status    | Jump to Lab                                                                  |
 |-----------|-------------------------------------------|-----------|------------------------------------------------------------------------------|
-| **Lab 1** | AD Foundation | Completed | [Go to Lab 1 >>](#lab-1-okta-tenant-setup--configuration)                       |
+| **Lab 1** | AD Foundation | Completed | [Go to Lab 1 >>](#lab-1-okta-tenant-setup--configuration) |
 | **Lab 2** | RBAC | Completed | [Go to Lab 2 >>](#lab-2-active-directory-integration--delegated-authentication) |
-| **Lab 3** | Offboarding | Completed | [Go to Lab 3 >>](#lab-3-rbac-design--access-sprawl-investigation)               |
-| **Lab 4** | Lockout  | Completed | [Go to Lab 4 >>](#lab-4-saml-20-application-integration)                        |
-| **Lab 5** | Entra Connect  | Completed | [Go to Lab 5 >>](#lab-5-adaptive-mfa-step-up-authentication--zero-trust)        |
+| **Lab 3** | Offboarding | Completed | [Go to Lab 3 >>](#lab-3-rbac-design--access-sprawl-investigation) |
+| **Lab 4** | Lockout  | Completed | [Go to Lab 4 >>](#lab-4-saml-20-application-integration) |
+| **Lab 5** | Entra Connect  | Completed | [Go to Lab 5 >>](#lab-5-adaptive-mfa-step-up-authentication--zero-trust) |
 
 ---
 ## Executive Summary and Business Impact
